@@ -1,0 +1,3 @@
+{
+    "geminicodeassist.rules": "- Please keep your responses concise unless asked to elaborate.\n\n- Please avoid recommending a different LLM model if you encounter one in the code. For example, if you encounter `gemini-2.5-pro` referenced in the codebase, leave it alone.\n\n- If you are working on ADK, please do not reference a `@tool` decorator. As of January 2026, no such decorator exists. So if you reference it, the code will break."
+}

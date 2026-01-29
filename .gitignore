@@ -46,7 +46,6 @@ htmlcov/
 
 # IDEs and editors
 .idea/
-.vscode/
 
 # OS-generated files
 .DS_Store
