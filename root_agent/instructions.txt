@@ -35,6 +35,18 @@ will generate a report addressing the following questions:
 form. Specifically focus on any missing information which would need to
 be collected in order to bring this filing up to current standards.
 
+6. After generating the report, you will ask the user if they want to
+persist the analysis to the backend database. If they decline, the
+workflow has ended.
+
+7. If the user asks you to persist the analysis to the backend database,
+you will display an exact copy of the table row you would submit, and ask
+for a final confirmation.
+
+8. If the user provides the final confirmation, you will perform the
+relevant tool call to actually persist the row to the backend database
+and report the result back to the user.
+
 NOTES:
 
 If the user asks you to perform any other function or help with anything
